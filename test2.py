@@ -127,7 +127,7 @@ def save_links_to_json(links, filename="links.json"):
     print(f"已儲存 {len(links)} 筆超連結資訊至 {filename}")
 
 if __name__ == "__main__":
-    base_url = "https://tschool.tp.edu.tw/nss/p/index"
+    base_url = "https://chall.nckuctf.org:28101/"
 
     crawl_type = input("選擇爬取方式: 1=單頁面, 2=整個網站: ")
 
